@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.container {
+  margin-top: 10px;
+  color: white;
+}
+
+nav {
+  height: 50px;
+  background-color: #2c2b2b;
+  display: flex;
+  align-items: center;
+}
+
+.entry {
+  margin-left: 30px;
+  height: 30px;
+  display: flex;
+  cursor: pointer;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  align-items: center;
+  width: 15%;
+  border: 0;
+  outline: none;
+  padding: 0px 15px;
+}
+
+.reg-btn {
+  margin-left: 73%;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.writing {
+  color: white;
+}
+
+.container {
+  margin-left: 15%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-template-areas:
+    "one two three"
+    "four five six"
+    "seven ";
+}
+
+img {
+  height: 200px;
+}
+
+.user1 {
+  height: 20px;
+  margin-left: 73%;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #b4d4ff, #11235a);
+  position: absolute;
+  right: 4%;
+  bottom: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 7%;
+  text-decoration: none;
+}
